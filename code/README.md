@@ -1,7 +1,17 @@
-### Code repository
 
-Don't forget to choose a license. You're free to use one from a set of
-well-understood licenses including BSD, GPL or Apache.
+# Requirements
+- [Elephant](https://github.com/NeuralEnsemble/elephant)>=0.5.0
+- [neo](https://github.com/NeuralEnsemble/python-neo)>=0.4.0
+- Python>=2.7
+- quantities>=0.9.0
+- numpy>=1.6.2
+- matplotlib>=1.5.1
 
-See [the Debian Free Software Guidelines](https://www.debian.org/social_contract#guidelines)
-for a [list of licenses](https://www.debian.org/legal/licenses/).
+
+# Installation
+### On Ubuntu/Debian:
+- sudo apt-get install python-numpy python-matplotlib python-pip ipython
+- pip install quantities
+- pip install elephant
+
+
